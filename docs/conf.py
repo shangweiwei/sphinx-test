@@ -175,3 +175,8 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
+
+def setup(app):
+    app.add_stylesheet('http://http://readthedocs.philips-healthsuitechina.com.cn/static/css/readthedocs-doc-embed.css')
+    app.add_stylesheet('http://http://readthedocs.philips-healthsuitechina.com.cn/static/css/badge_only.css')
+    app.add_javascript('http://http://readthedocs.philips-healthsuitechina.com.cn/static/javascript/readthedocs-doc-embed.js')
